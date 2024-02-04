@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizwan Portfolio</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom,
+                    yellow,
+                    white);
+
+        }
+
+
+
+        header {
+            color: black;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        header p {
+            margin: 5px 0 0;
+
+
+        }
+
+        section {
+            padding: 40px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+
+        }
+
+        section img {
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            max-width: 100%;
+
+        }
+
+        section h2 {
+            color: rgb(0, 136, 255);
+        }
+
+        ul {
+            list-style: circle;
+            padding: 0;
+
+        }
+
+        ul li {
+            margin-right: 20px;
+            display: flex;
+            justify-content: left;
+        }
+
+        .project {
+            margin: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            border: 2px solid black;
+            overflow: hidden;
+
+        }
+
+        .project img {
+            max-width: 100%;
+        }
+
+        #skills {
+            height: fit-content;
+        }
+
+        footer {
+            height: 50vh;
+            text-align: center;
+            padding: 10px 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Rizwan</h1>
+            <p>Front end developer</p>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img src="./IMG_20220819_150559_453.jpg" alt="Human image" width="80%">
+            <p>
+                Hello I'm Rizwan,a passionate front end developer and always interested to learn new things to create
+                best websites for my clients
+            </p>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Python</li>
+                <li>C++</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <img src="../1_83H0VEUnwwZ9QukANdXnig.jpg" alt="Image gallery">
+                <h3>Image Gallery</h3>
+                <p>Description:Created a responsive images gallery where users can upload,view, and
+                    organize their images.Implemented features like image lightbox,cattegorization and search
+                    functionality
+
+                </p>
+
+            </div>
+            <div class="project">
+                <img src="../Build-An-Image-Editor-in-HTML-CSS-JavaScript.jpg" alt="photo editing">
+
+                <h3>Photo Editing app</h3>
+                <p>Description: Developed a simple photo editing application using HTML,CSS,and Javascript include
+                    features like image cropping,resizing and applying filters.Also used libraries like Fabric.js for
+                    canvas manipulation
+
+                </p>
+
+
+            </div>
+            <div class="project">
+                <img src="../e6d970ed-8a4d-42fa-9f16-0b7efc34fb95.png" alt="Responsive">
+                <h3>Responsive Portfolio Websites</h3>
+                <p>Description: I have design a Portfolio website that showcases your work,including projects,articles,
+                    and achievments,.Incorporated responsive design principles to ensure a seamless experience on
+                    various devices
+                </p>
+            </div>
+            <div class="project">
+                <img src="../360-virtual-tour-cover-512-384.png" alt="">
+                <h3>Virtual Tour Website</h3>
+
+                <p>Description:Developed a website that provides virtual tours of different location
+                    Used 360 degree image and incorporate navigation controls for users to explore the surroundings
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="resume">
+        <div class="container">
+            <h2>Please download my resume from below link</h2>
+            <p>Resume link <a href="Resume1.pdf" target="_blank" download="Resume1.pdf">here</a>.</p>
+
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email:vahorarizwan09@gmail.com</p>
+            <p>Phone:7350062980</p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy;2024 Your Name.All rights reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>
